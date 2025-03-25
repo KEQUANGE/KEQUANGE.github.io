@@ -1,0 +1,76 @@
+.banner{
+    width: 100%;
+    height: 460px;
+}
+
+.banner>.wrap{
+    position: relative;
+    margin-top: 0%;
+}
+
+.banner-img{
+    width: 100%;
+    height: 460px;
+    position: absolute;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+}
+
+
+
+.slide{
+    
+    width: 16%;
+    height: 460px;
+    padding: 10px 0;
+    background-color: rgba(105, 101, 101, 0.6);
+    position:absolute;
+    
+
+}
+.slide>ul>li{
+    height: 42px;
+    line-height: 42px;
+    text-align: left;
+    font-size: 14px;
+}
+.slide>ul>li>a{
+    color: aliceblue;
+}
+.slide i{
+    float: right;
+    padding-right: 30px;
+}
+.slide>ul>li:hover{
+    background-color: #ff6700;
+}
+
+/* 切换效果 */
+.pibang{
+    width:500%;
+    height: 460px;
+    position: absolute;
+    border-left: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+    top: 0;
+    left: 270px;
+    display: none;
+}
+.slide li:hover .pibang{
+    display: block;
+}
+.jiaju{
+    width:480%;
+    height: 460px;
+    position: absolute;
+    border-left: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+    top: 0;
+    left: 270px;
+    display: none;
+}
+.slide li:hover .pibang .jiaju{
+    display: block;
+}
+.slide li:hover .jiaju{
+    display: block;
+}
